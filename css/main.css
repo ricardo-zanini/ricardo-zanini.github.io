@@ -53,10 +53,6 @@ b {
   .mainnavbar {
     position: absolute;
   }
-  .container {
-    margin-top: 0 !important;
-    padding-top: 70px;
-  }
 }
 
 @media (max-width: 330px) {
@@ -79,6 +75,7 @@ b {
 .container {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-top: 30px;
 }
 
 .bordaAzul {

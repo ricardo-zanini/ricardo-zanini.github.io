@@ -44,10 +44,6 @@ b{
     .mainnavbar{
         position:absolute;
     }
-    .container{
-        margin-top:0 !important;
-        padding-top:70px;
-      }
 }
 @media(max-width: 330px){
     .containerInformacoes{
@@ -65,6 +61,7 @@ b{
 .container{
     @extend %extensaoDisplayFlex;
     flex-wrap:wrap;
+    padding-top:30px;
 }
 
 .bordaAzul{
